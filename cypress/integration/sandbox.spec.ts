@@ -4,8 +4,8 @@ describe("Sandbox", () => {
   });
 
   it("should be on Sandbox", () => {
-    cy.title((title) => {
-      assert.strictEqual(title, "Sandboxx");
+    cy.title().then((title) => {
+      expect(title).to.eq("Sandbox");
     });
 
     cy.get("h1").then(($header) => {
