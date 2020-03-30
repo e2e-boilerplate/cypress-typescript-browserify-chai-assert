@@ -1,0 +1,62 @@
+{
+  "author": "Girma Nigusse <xgirma@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/e2e-boilerplate/cypress-typescript-browserify-chai-expect/issues"
+  },
+  "dependencies": {
+    "@cypress/browserify-preprocessor": "2.1.4",
+    "cypress": "4.2.0",
+    "rimraf": "3.0.2",
+    "tsify": "4.0.1",
+    "typescript": "3.8.3"
+  },
+  "description": "Cypress end-to-end test automation boilerplate. Using TypeScript, Browserify, Chai and Expect.",
+  "devDependencies": {
+    "@types/chai": "4.2.11",
+    "eslint-plugin-cypress": "2.10.3",
+    "husky": "4.2.3",
+    "lint-staged": "10.0.10",
+    "prettier": "2.0.2",
+    "tslint": "6.1.0",
+    "tslint-config-prettier": "1.18.0",
+    "tslint-plugin-prettier": "2.3.0"
+  },
+  "homepage": "https://github.com/e2e-boilerplate/cypress-typescript-browserify-chai-expect#readme",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "keywords": [
+    "boilerplate",
+    "browserify",
+    "chai",
+    "cypress",
+    "e2e",
+    "e2e tests",
+    "example",
+    "expect",
+    "integration test",
+    "typescript"
+  ],
+  "license": "MIT",
+  "lint-staged": {
+    "*.{js,css,json,md}": [
+      "prettier --write"
+    ]
+  },
+  "name": "cypress-typescript-browserify-chai-expect",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e2e-boilerplate/cypress-typescript-browserify-chai-expect.git"
+  },
+  "scripts": {
+    "clean:screenshots": "npx cypress/screenshots/*",
+    "clean:video": "npx rimraf cypress/videos/*",
+    "lint": "npx tslint -c tslint.json './cypress/integration/*.ts'",
+    "open": "npx cypress open",
+    "pretty": "npx prettier --no-config './**/*.{ts,js}' --write",
+    "test": "npx cypress run"
+  },
+  "version": "1.0.0"
+}
