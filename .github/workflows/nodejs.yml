@@ -1,4 +1,4 @@
-name: cypress-typescript-browserify-chai-expect
+name: cypress-typescript-browserify-chai-assert
 'on':
   push: null
   schedule:
