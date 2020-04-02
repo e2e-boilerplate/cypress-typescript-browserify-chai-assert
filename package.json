@@ -41,7 +41,7 @@
   ],
   "license": "MIT",
   "lint-staged": {
-    "*.{js,css,json,md}": [
+    "*.{js,ts,json,md}": [
       "prettier --write"
     ]
   },
@@ -53,7 +53,7 @@
   "scripts": {
     "clean:screenshots": "npx cypress/screenshots/*",
     "clean:video": "npx rimraf cypress/videos/*",
-    "lint": "npx tslint -c tslint.json './cypress/integration/*.ts'",
+    "lint": "npx tslint -c tslint.json './cypress/**/*.ts'",
     "open": "npx cypress open",
     "pretty": "npx prettier --no-config './**/*.{ts,js}' --write",
     "test": "npx cypress run"
