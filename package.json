@@ -4,15 +4,14 @@
     "url": "https://github.com/e2e-boilerplate/cypress-typescript-browserify-chai-assert/issues"
   },
   "dependencies": {
-    "@cypress/browserify-preprocessor": "2.1.4",
     "cypress": "4.3.0",
     "rimraf": "3.0.2",
-    "ts-loader": "6.2.2",
     "tsify": "4.0.1",
     "typescript": "3.8.3"
   },
   "description": "Cypress end-to-end test automation boilerplate. Using TypeScript, Browserify, Chai and Assert.",
   "devDependencies": {
+    "@cypress/browserify-preprocessor": "2.1.4",
     "@types/chai": "4.2.11",
     "eslint-plugin-cypress": "2.10.3",
     "husky": "4.2.3",
