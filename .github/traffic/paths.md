@@ -1,0 +1,12 @@
+| referrer                                                                                        | count | uniques |
+| :---------------------------------------------------------------------------------------------- | :---- | :------ |
+| /e2e-boilerplate/cypress-typescript-browserify-chai-assert                                      | 16    | 1       |
+| /e2e-boilerplate/cypress-typescript-browserify-chai-assert/actions                              | 10    | 1       |
+| /e2e-boilerplate/cypress-typescript-browserify-chai-assert/runs/544241904                       | 4     | 1       |
+| /e2e-boilerplate/cypress-typescript-browserify-chai-assert/actions/runs/66166690                | 2     | 1       |
+| /e2e-boilerplate/cypress-typescript-browserify-chai-assert/pulls                                | 2     | 1       |
+| /e2e-boilerplate/cypress-typescript-browserify-chai-assert/actions/runs/66540748                | 1     | 1       |
+| /e2e-boilerplate/cypress-typescript-browserify-chai-assert/actions/runs/66751109                | 1     | 1       |
+| /e2e-boilerplate/cypress-typescript-browserify-chai-assert/actions/runs/66963673                | 1     | 1       |
+| /e2e-boilerplate/cypress-typescript-browserify-chai-assert/actions/runs/70100740                | 1     | 1       |
+| /e2e-boilerplate/cypress-typescript-browserify-chai-assert/blob/master/cypress/plugins/index.js | 1     | 1       |
