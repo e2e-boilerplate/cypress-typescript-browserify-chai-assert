@@ -4,7 +4,7 @@
     "url": "https://github.com/e2e-boilerplate/cypress-typescript-browserify-chai-assert/issues"
   },
   "dependencies": {
-    "cypress": "4.4.0",
+    "cypress": "4.4.1",
     "rimraf": "3.0.2",
     "tsify": "4.0.1",
     "typescript": "3.8.3"
