@@ -2,7 +2,7 @@
     
 # Cypress Boilerplate
     
-Cypress end-to-end test automation boilerplate, Using TypeScript, Browserify, Chai and Assert.
+Cypress end-to-end test automation boilerplate, Using [TypeScript](https://www.typescriptlang.org), [Browserify](http://browserify.org), [Chai](https://www.chaijs.com) and Assert.
     
 ## Getting Started
     	1. git clone git@github.com:e2e-boilerplate/cypress-typescript-browserify-chai-assert.git
