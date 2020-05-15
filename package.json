@@ -11,9 +11,9 @@
   },
   "description": "Cypress end-to-end test automation boilerplate. Using TypeScript, Browserify, Chai and Assert.",
   "devDependencies": {
-    "@cypress/browserify-preprocessor": "2.2.4",
+    "@cypress/browserify-preprocessor": "2.1.4",
     "@types/chai": "4.2.11",
-    "eslint-plugin-cypress": "2.10.3",
+    "@types/cypress-cucumber-preprocessor": "1.14.1",
     "husky": "4.2.5",
     "lint-staged": "10.2.2",
     "prettier": "2.0.4",
