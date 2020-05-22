@@ -8,8 +8,8 @@ describe("Sandbox", () => {
       expect(title).to.eq("Sandbox");
     });
 
-    cy.get("h1").then(($header) => {
-      const text = $header.text();
+    cy.get("h1").then((header) => {
+      const text = header.text();
       assert.strictEqual(text, "Sandbox");
     });
   });
