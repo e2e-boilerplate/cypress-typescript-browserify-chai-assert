@@ -6,5 +6,8 @@
   ],
   "rules": {
     "prettier": true
+  },
+  "linterOptions": {
+    "exclude": ["*.json", "**/*.json"]
   }
 }
