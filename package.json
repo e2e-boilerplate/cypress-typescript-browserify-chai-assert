@@ -14,7 +14,7 @@
     "@cypress/browserify-preprocessor": "3.0.2",
     "@types/chai": "4.3.9",
     "@types/cypress-cucumber-preprocessor": "4.0.5",
-    "husky": "6.0.0",
+    "husky": "8.0.3",
     "lint-staged": "11.2.6",
     "prettier": "2.8.8",
     "tslint": "6.1.3",
